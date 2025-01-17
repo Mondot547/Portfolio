@@ -387,3 +387,81 @@ span,
   color: var(--text-color);
   line-height: 2.5rem;
 }
+
+/****************Services**************/
+
+.services {
+  color: var(--second-color);
+  background: var(--bg-color);
+}
+
+.services h2 {
+  text-align: center;
+  margin: 5rem 0;
+  color: var(--text-color);
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.services-box {
+  background-color: var(--main-color);
+  height: 300px;
+  border-radius: 3rem;
+  border: 5px solid transparent;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.services-box:hover {
+  background: var(--text-color);
+  color: var(--bg-color);
+  border: 5px solid var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.services-box:hover h3 {
+  color: var(--main-color);
+}
+
+.services-box:hover i {
+  color: var(--main-color);
+}
+
+.services-box .services-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  align-items: baseline;
+  padding: 5rem 5rem;
+}
+
+.services-box h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.services-box p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  max-height: 100px;
+  line-height: 1.7rem;
+  margin: auto;
+}
+
+.services-box .services-icon {
+  font-size: 10rem;
+  color: var(--text-color);
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
