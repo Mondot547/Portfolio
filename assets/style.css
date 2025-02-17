@@ -46,7 +46,7 @@ main.footer section {
   left: 0;
   width: 100%;
   padding: 4rem 12% 4rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;

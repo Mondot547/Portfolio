@@ -25,3 +25,21 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+  emailjs.init("01CBgWYFzjDtqlrdQ");
+
+  document
+    .getElementById("contact-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      emailjs.sendForm("service_mcz21kr", "template_upy0z4l", this).then(
+        function () {
+          alert("Message envoyé avec succès!");
+        },
+        function (error) {
+          alert("Erreur lors de l'envoi du message: " + JSON.stringify(error));
+        }
+      );
+    });
+});
