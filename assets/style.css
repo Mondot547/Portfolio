@@ -416,7 +416,7 @@ span,
 
 .services-box {
   background-color: var(--main-color);
-  height: 200px;
+  height: 100%;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
@@ -453,9 +453,12 @@ span,
 .services-box p {
   font-size: 1.6rem;
   font-weight: 500;
-  max-height: 100px;
   line-height: 1.7rem;
   margin: auto;
+}
+
+.services-box div ul {
+  font-size: 1.6rem;
 }
 
 .contact {
@@ -510,6 +513,30 @@ span,
   margin-top: 3.5rem;
 }
 
+/*****Mentions legales******/
+.mentionsLegales {
+  display: block;
+  text-align: start;
+}
+
+.mentionsLegales h2 {
+  margin: 0 3rem;
+  color: var(--main-color);
+  text-align: start;
+}
+
+.mentionsLegales p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  margin: auto;
+}
+
+.mentionsLegales div ul {
+  font-size: 1.6rem;
+}
+
+/*****Footer*****/
 .footer {
   position: relative;
   bottom: 0;
