@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio | Mondot547</title>
     <link rel="stylesheet" href="./assets/style.css" />
     <link
@@ -50,25 +50,25 @@
               href="https://www.linkedin.com/in/alexandre-mondot-3644ab20a/"
               target="_blank"
               rel="noopener noreferrer"
-              ><i class="bx bxl-linkedin"></i
+              ><i class="bx bxl-linkedin bx-spin-hover"></i
             ></a>
             <a
               href="https://github.com/Mondot547"
               target="_blank"
               rel="noopener noreferrer"
-              ><i class="bx bxl-github"></i
+              ><i class="bx bxl-github bx-spin-hover"></i
             ></a>
             <a
               href="https://www.codeur.com/-alexandrem0ipn"
               target="_blank"
               rel="noopener noreferrer"
-              ><i class="bx bx-code"></i
+              ><i class="bx bx-code bx-spin-hover"></i
             ></a>
             <a
               href="https://www.twitch.tv/draginald_exo"
               target="_blank"
               rel="noopener noreferrer"
-              ><i class="bx bxl-twitch"></i
+              ><i class="bx bxl-twitch bx-spin-hover"></i
             ></a>
           </div>
 
@@ -93,7 +93,7 @@
               <h3>Développeur Web DW1 et DW2</h3>
               <p>
                 Centre Européen de Formation | 100% à distance <br />
-                <small><i class="bx bxs-battery-charging"></i> En Cours</small>
+                <small><i class="bx bxs-battery-charging bx-md bx-tada"></i> En Cours</small>
               </p>
             </div>
           </div>
@@ -106,8 +106,8 @@
               <p>
                 3W Academy | 100% en présentielle <br />
                 <small
-                  ><i class="bx bx-x"></i> Non Obtenue (Front-end
-                  uniquement)</small
+                  ><i class="bx bx-check bx-md"></i> Front-end
+                  Obtenue</small
                 >
               </p>
             </div>
@@ -120,7 +120,7 @@
               <h3>Prep'apprentissage - Développeur Web</h3>
               <p>
                 OpenClassrooms | 100% à distance <br />
-                <small> <i class="bx bx-check"></i> Obtenue </small>
+                <small> <i class="bx bx-check bx-md"></i> Obtenue </small>
               </p>
             </div>
           </div>
@@ -185,15 +185,18 @@
               <div>
                 <ul>
                   <li>
+                    <i class='bx bx-chevron-right bx-lg bx-fade-left'></i>
                     Le SEO technique : optimiser la vitesse de chargement, la
                     structure du site et l’accessibilité mobile.
                   </li>
                   <li>
+                    <i class='bx bx-chevron-right bx-lg bx-fade-left'></i>
                     Le SEO on-page : rédiger un contenu pertinent avec des
                     mots-clés stratégiques, structurer les balises HTML (H1, H2,
                     meta descriptions…).
                   </li>
                   <li>
+                    <i class='bx bx-chevron-right bx-lg bx-fade-left'></i>
                     Le SEO off-page : obtenir des liens externes (backlinks)
                     pour renforcer l’autorité du site.
                   </li>
@@ -209,11 +212,12 @@
         <form id="contact-form">
           <div class="input-group">
             <div class="input-box">
-              <input type="text" name="name" placeholder="Nom Complet" />
+              <input type="text" name="name" placeholder="Nom Complet" required/>
               <input
                 type="email"
                 name="email"
                 placeholder="exemple@exemple.fr"
+                required
               />
             </div>
             <div class="input-box">
@@ -221,8 +225,9 @@
                 type="number"
                 name="telephone"
                 placeholder="06.01.02.03.04"
+                required
               />
-              <input type="text" name="subject" placeholder="Sujet" />
+              <input type="text" name="subject" placeholder="Sujet" required/>
             </div>
           </div>
           <div class="input-group-message">

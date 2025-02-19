@@ -721,7 +721,7 @@ span,
   }
 
   .services-box {
-    height: 360px;
+    height: 100%;
   }
 
   .services-box .services-info h3 {
@@ -729,9 +729,17 @@ span,
     line-height: 2.9rem;
   }
 
-  .services-box .services-info p {
+  .services-box .services-info p, .services-box .services-info ul li {
     font-size: 2.5rem;
     line-height: 3.5rem;
+  }
+
+  .services-box .services-info ul {
+    list-style: none;
+  }
+
+  .services-box .services-info ul li {
+    margin: 1rem 0;
   }
 
   .contact form input::placeholder,
