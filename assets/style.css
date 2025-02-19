@@ -9,6 +9,7 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
+  list-style: none;
 }
 
 ::-webkit-scrollbar {
@@ -457,7 +458,6 @@ span,
   margin: auto;
 }
 .services-box .services-info ul {
-  list-style: none;
   font-size: 1.6rem;
 }
 
