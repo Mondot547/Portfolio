@@ -456,8 +456,8 @@ span,
   line-height: 1.7rem;
   margin: auto;
 }
-
-.services-box div ul {
+.services-box .services-info ul {
+  list-style: none;
   font-size: 1.6rem;
 }
 
@@ -732,10 +732,6 @@ span,
   .services-box .services-info p, .services-box .services-info ul li {
     font-size: 2.5rem;
     line-height: 3.5rem;
-  }
-
-  .services-box .services-info ul {
-    list-style: none;
   }
 
   .services-box .services-info ul li {
